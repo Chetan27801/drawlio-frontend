@@ -76,7 +76,7 @@ export default function HomePage() {
 						<Pencil className="h-8 w-8" />
 					</div>
 					<CardTitle className="text-3xl font-bold tracking-tight">
-						Scribble
+						drawlio
 					</CardTitle>
 					<p className="text-muted-foreground text-sm mt-1">
 						Draw, guess, and have fun with friends
@@ -100,11 +100,7 @@ export default function HomePage() {
 
 					<Dialog open={dialogOpen} onOpenChange={setDialogOpen}>
 						<DialogTrigger asChild>
-							<Button
-								className="w-full"
-								size="lg"
-								disabled={!canInteract}
-							>
+							<Button className="w-full" size="lg" disabled={!canInteract}>
 								<Users className="mr-2 h-4 w-4" />
 								Create Room
 							</Button>
