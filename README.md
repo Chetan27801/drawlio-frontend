@@ -1,6 +1,6 @@
 # Drawlio Frontend
 
-The frontend client for **Drawlio** — a real-time multiplayer drawing and guessing game. Built with React, Socket.IO, and Tailwind CSS, it provides the drawing canvas, chat, lobby management, and live game UI that connects to the [Drawlio Backend](../drawlio-backend).
+The frontend client for **Drawlio** — a real-time multiplayer drawing and guessing game. Built with React, Socket.IO, and Tailwind CSS, it provides the drawing canvas, chat, lobby management, and live game UI that connects to the [Drawlio Backend](https://github.com/Chetan27801/drawlio-backend).
 
 ## Tech Stack
 
@@ -41,7 +41,7 @@ src/
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/) v20+
-- The [Drawlio Backend](https://github.com/Chetan27801/drawlio-frontend) running (default `http://localhost:3000`)
+- The [Drawlio Backend](https://github.com/Chetan27801/drawlio-backend) running (default `http://localhost:3000`)
 
 ## Getting Started
 
