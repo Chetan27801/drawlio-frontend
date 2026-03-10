@@ -32,16 +32,16 @@ src/
 
 ## Pages & Routes
 
-| Route | Page | Description |
-|---|---|---|
-| `/` | Home | Create or join a game room |
-| `/lobby/:roomCode` | Lobby | Waiting room before the game starts |
-| `/game/:roomCode` | Game | Drawing canvas, chat, scoreboard, and toolbar |
+| Route              | Page  | Description                                   |
+| ------------------ | ----- | --------------------------------------------- |
+| `/`                | Home  | Create or join a game room                    |
+| `/lobby/:roomCode` | Lobby | Waiting room before the game starts           |
+| `/game/:roomCode`  | Game  | Drawing canvas, chat, scoreboard, and toolbar |
 
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/) v20+
-- The [Drawlio Backend](../drawlio-backend) running (default `http://localhost:3000`)
+- The [Drawlio Backend](https://github.com/Chetan27801/drawlio-frontend) running (default `http://localhost:3000`)
 
 ## Getting Started
 
@@ -88,21 +88,21 @@ npm run dev          # start backend server
 
 ## Available Scripts
 
-| Command | Description |
-|---|---|
-| `npm run dev` | Start Vite dev server with HMR |
-| `npm run build` | Type-check and build for production |
+| Command           | Description                          |
+| ----------------- | ------------------------------------ |
+| `npm run dev`     | Start Vite dev server with HMR       |
+| `npm run build`   | Type-check and build for production  |
 | `npm run preview` | Preview the production build locally |
-| `npm run lint` | Run ESLint across the project |
+| `npm run lint`    | Run ESLint across the project        |
 
 ## Key Dependencies
 
-| Package | Purpose |
-|---|---|
-| `socket.io-client` | Real-time WebSocket communication with the backend |
-| `zustand` | Lightweight state management for game and canvas state |
-| `react-router-dom` | Client-side routing |
-| `tailwindcss` + `@tailwindcss/vite` | Utility-first CSS |
-| `radix-ui` + `shadcn` | Accessible, composable UI components |
-| `class-variance-authority` + `clsx` + `tailwind-merge` | Conditional class utilities |
-| `lucide-react` | Icon library |
+| Package                                                | Purpose                                                |
+| ------------------------------------------------------ | ------------------------------------------------------ |
+| `socket.io-client`                                     | Real-time WebSocket communication with the backend     |
+| `zustand`                                              | Lightweight state management for game and canvas state |
+| `react-router-dom`                                     | Client-side routing                                    |
+| `tailwindcss` + `@tailwindcss/vite`                    | Utility-first CSS                                      |
+| `radix-ui` + `shadcn`                                  | Accessible, composable UI components                   |
+| `class-variance-authority` + `clsx` + `tailwind-merge` | Conditional class utilities                            |
+| `lucide-react`                                         | Icon library                                           |
